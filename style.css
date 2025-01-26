@@ -28,12 +28,65 @@ body {
 
 .bg-green {
   background: #036a3b;
-  /* background: url("/img/svgs/Asset\ 4.svg") center/cover no-repeat; */
-  clip-path: polygon(0 8%, 99% 0, 100% 100%, 2% 100%);
+  height: 73vh;
+  background: url("./assets/img/pngs/boxes.png") center/cover no-repeat;
 }
 
 .bg-green-img {
   background: #036a3b;
   background: url("/img/pngs/imgs\ \(1\).jpg") center/cover no-repeat;
   clip-path: polygon(0 8%, 99% 0, 100% 100%, 2% 100%);
+}
+
+.bg-green-fot {
+  background: url("/img/pngs/footer.png") center/cover no-repeat;
+}
+
+/* 1561 */
+@media screen and (width>=1338px) {
+  .bg-green {
+    height: 90vh;
+  }
+}
+
+@media screen and (width>=1561px) {
+  .bg-green {
+    height: 105vh;
+  }
+}
+
+/* 1848 */
+@media screen and (width>=1848px) {
+  .bg-green {
+    height: 118vh;
+  }
+}
+
+/* 2075 */
+@media screen and (width>=2075px) {
+  .bg-green {
+    height: 130vh;
+  }
+}
+
+/* 1100 */
+@media screen and (width<=1100px) {
+  .bg-green {
+    height: 78vh;
+  }
+}
+
+/* 1043 */
+@media screen and (width<=1043px) {
+  .bg-green {
+    height: 68vh;
+    width: 96%;
+  }
+}
+
+/* 819 */
+@media screen and (width<=819px) {
+  .bg-green {
+    display: none;
+  }
 }

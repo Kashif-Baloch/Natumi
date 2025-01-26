@@ -45,6 +45,10 @@
         clip-path: polygon(0 8%, 99% 0, 100% 100%, 2% 100%);
       }
 
+      .bg-green-fot {
+        background: url("/img/pngs/footer.png") center/cover no-repeat;
+      }
+
       .bg-green-img {
         background: #036a3b;
         background: url("/img/pngs/imgs\ \(1\).jpg") center/cover no-repeat;
@@ -56,7 +60,7 @@
     <header class="bg-img pt-4">
       <nav class="md:block hidden">
         <ul
-          class="nav-links md:flex items-center justify-center gap-4 font-bold"
+          class="nav-links md:flex items-center justify-center gap-4 text-[18px] font-bold"
         >
           <a class="text-green-700" href="/templates/second.html">PRODUKTE</a>
           <a class="text-green-700" href="/">REZEPTE</a>
@@ -178,18 +182,28 @@
       <div
         class="md:w-[60%] flex flex-col md:flex-col-reverse mx-auto w-full md:mt-16 gap-6"
       >
-        <dvi class="relative">
+        <dvi class="relative text-center">
           <img class="w-full" src="/img/pngs/imgs (1).jpeg" alt="Crop" />
           <img
             class="hidden md:block absolute -top-10 -left-10 w-32"
             src="/img/svgs/Asset 68.svg"
             alt="Circle"
           />
+          <p
+            class="text-center hidden md:block mx-auto my-8 text-sm text-green-700 w-[70%]"
+          >
+            Die Kartonverpackungen, die wir für unsere pflanzlichen Drinks
+            verwenden, stammen aus nachhaltig bewirtschafteten Wäldern,
+            zertifiziert durch den Forest Ste- wardship Council™™ (FSCM). So
+            können wir sicherstellen, dass die für unsere Verpa- ckungen
+            genutzten Rohstoffe nicht nur erneuerbar, sondern auch ökologisch
+            ver- antwortungsvoll gewonnen werden.
+          </p>
         </dvi>
         <dvi
           class="mt-12 text-center flex flex-col items-center justify-center gap-4"
         >
-          <h1 class="text-green-700 font-bold text-2xl md:text-3xl">
+          <h1 class="text-green-700 font-bold text-xl md:text-3xl">
             NACHHALTIGE VERPACKUNGEN<br />FÜR EINE GRÜNERE ZUKUNFT
           </h1>
           <p class="text-center text-sm text-green-700 w-[70%]">
@@ -205,7 +219,7 @@
             src="/img/svgs/Asset 68.svg"
             alt="Circle"
           />
-          <p class="text-center text-sm text-green-700 w-[70%]">
+          <p class="text-center md:hidden text-sm text-green-700 w-[70%]">
             Die Kartonverpackungen, die wir für unsere pflanzlichen Drinks
             verwenden, stammen aus nachhaltig bewirtschafteten Wäldern,
             zertifiziert durch den Forest Ste- wardship Council™™ (FSCM). So
@@ -240,7 +254,7 @@
             VIELSCHICHTIG FÜR MAXIMALE<br />
             FRISCHE UND SCHUTZ
           </h1>
-          <p class="text-center text-sm text-green-700 w-[70%]">
+          <p class="text-center text-sm text-green-700 mx-auto md:w-[60%]">
             Unsere Verpackungen bestehen aus mehreren Materialschichten, die
             optimal aufein- ander abgestimmt sind, um die Qualität unserer
             Produkte zu bewahren. Der Haupt- bestandteil ist nachhaltiger
@@ -285,7 +299,7 @@
     <section class="about md:block hidden">
       <div class="w-[60%] mx-auto mt-[10rem]">
         <div class="flex items-center justify-center gap-4 flex-col">
-          <p class="text-center text-green-700">
+          <p class="text-center md:hidden text-green-700">
             Unsere Pflanzendrinks stehen für echten, unverfälschten Geschmack -
             keine künstlichen Aromen und Zusätze, nur Natur pur. Hergestellt in
             Troisdorf, mitten in Deutschland, aus regionalen Bio-Zutaten, setzen
@@ -321,7 +335,7 @@
         alt="Flower"
       />
       <div>
-        <div class="bg-green-700 flex items-center justify-center gap-4 p-4">
+        <div class="bg-green-fot flex items-center justify-center gap-4 p-4">
           <h1 class="text-center text-white">
             IMPRESSUM PRIVACY POLICY | KONTAKT | B2B
           </h1>
