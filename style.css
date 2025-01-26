@@ -84,8 +84,17 @@ body {
   }
 }
 
+@media screen and (width>=820px) {
+  .gg {
+    display: none;
+  }
+}
+
 /* 819 */
 @media screen and (width<=819px) {
+  .gg {
+    display: block;
+  }
   .bg-green {
     display: none;
   }
