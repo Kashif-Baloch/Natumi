@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+a {
+  text-decoration: none;
+}
+
+.bg-img {
+  background: url("/img/pngs/imgs\ \(1\).jpg") center/cover no-repeat;
+}
+
+.bg-btn {
+  background: url("/img/svgs/Asset\ 8.svg") center/cover no-repeat;
+}
+
+.bg-btn2 {
+  background: url("/img/svgs/Asset 14.svg") center/cover no-repeat;
+}
+.bg-btn3 {
+  background: url("/img/svgs/Asset 18.svg") center/cover no-repeat;
+}
+
+.bg-green {
+  background: #036a3b;
+  /* background: url("/img/svgs/Asset\ 4.svg") center/cover no-repeat; */
+  clip-path: polygon(0 8%, 99% 0, 100% 100%, 2% 100%);
+}
+
+.bg-green-img {
+  background: #036a3b;
+  background: url("/img/pngs/imgs\ \(1\).jpg") center/cover no-repeat;
+  clip-path: polygon(0 8%, 99% 0, 100% 100%, 2% 100%);
+}
