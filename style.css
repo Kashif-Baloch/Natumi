@@ -29,8 +29,12 @@ body {
 
 .bg-green {
   background: #036a3b;
-  height: 73vh;
+  height: 115vh;
   background: url("./assets/img/pngs/boxes.png") center/cover no-repeat;
+}
+
+.pater {
+  background: url("./assets/img/btimg/herobg.png") center/cover no-repeat;
 }
 
 .bg-green-img {
@@ -43,41 +47,200 @@ body {
   background: url("/img/pngs/footer.png") center/cover no-repeat;
 }
 
-/* 1561 */
-@media screen and (width>=1338px) {
+.gg {
+  display: none;
+}
+
+.bg-green {
+  display: none;
+}
+
+/* 1561 1218 1106 */
+@media screen and (width>=820px) {
   .bg-green {
-    height: 90vh;
+    display: block;
+    height: 49vh;
+  }
+
+  .ttl {
+    font-size: 10px;
   }
 }
 
+@media screen and (width>=1105px) {
+  .bg-green {
+    display: block;
+    height: 56vh;
+  }
+
+  /* .ttl {
+    font-size: 10px;
+  } */
+}
+
+@media screen and (width: 1024px) {
+  .bg-green {
+    height: 95vh !important;
+  }
+}
+
+@media screen and (width: 1440px) {
+  .bg-green {
+    height: 120vh !important;
+  }
+}
+
+@media screen and (width>=1218px) {
+  .bg-green {
+    display: block;
+    height: 63vh;
+  }
+
+  .ttl {
+    font-size: 18px;
+  }
+}
+/* 1382 */
+
+@media screen and (width>=1382px) {
+  .bg-green {
+    display: block;
+    height: 70vh;
+  }
+
+  .ttl {
+    font-size: 18px;
+  }
+}
+
+/* 1554 */
+
+@media screen and (width>=1554px) {
+  .bg-green {
+    display: block;
+    height: 80vh;
+  }
+
+  .ttl {
+    font-size: 20px;
+  }
+}
+/* 1746 */
+
+@media screen and (width>=1746px) {
+  .bg-green {
+    display: block;
+    height: 90vh;
+  }
+
+  .ttl {
+    font-size: 24px;
+  }
+}
+/* 1978 */
+
+/* 1048 */
+
+@media screen and (width<=1048px) {
+  .hjj {
+    gap: 6px;
+  }
+
+  .iw {
+    width: 70px;
+  }
+}
+
+@media screen and (width>=1978px) {
+  .bg-green {
+    display: block;
+    height: 100vh;
+  }
+
+  .bg-btn3 {
+    padding-block: 10px;
+  }
+
+  .ttl {
+    font-size: 24px;
+  }
+
+  .p-ti {
+    font-size: 27px !important;
+  }
+
+  .wimg {
+    min-width: 150% !important;
+  }
+
+  .img-c {
+    width: 250px !important;
+    height: 240px !important;
+  }
+  .navtext {
+    font-size: 32px !important;
+  }
+  .hjj {
+    width: 48% !important;
+    gap: 20px;
+  }
+  .sml {
+    font-size: 60px;
+  }
+  .ius {
+    font-size: 20px;
+  }
+  .hh {
+    width: 139px;
+  }
+  .jj {
+    font-size: 50px;
+  }
+
+  .iw {
+    width: 180px !important;
+  }
+
+  .iuu {
+    min-width: 106%;
+    margin: auto;
+  }
+}
+@media screen and (width>=2182px) {
+  .bg-green {
+    display: block;
+    height: 110vh;
+  }
+
+  .ttl {
+    font-size: 24px;
+    width: 80%;
+  }
+}
+/* 
 @media screen and (width>=1561px) {
   .bg-green {
     height: 105vh;
   }
 }
-
-/* 1848 */
 @media screen and (width>=1848px) {
   .bg-green {
     height: 118vh;
   }
 }
 
-/* 2075 */
 @media screen and (width>=2075px) {
   .bg-green {
     height: 130vh;
   }
 }
 
-/* 1100 */
 @media screen and (width<=1100px) {
   .bg-green {
     height: 78vh;
   }
 }
 
-/* 1043 */
 @media screen and (width<=1043px) {
   .bg-green {
     height: 68vh;
@@ -89,9 +252,8 @@ body {
   .gg {
     display: none;
   }
-}
+} */
 
-/* 819 */
 @media screen and (width<=819px) {
   .gg {
     display: block;
@@ -100,3 +262,39 @@ body {
     display: none;
   }
 }
+
+.img-c {
+  width: 120px;
+}
+@media screen and (width>=1342px) {
+  .navtext {
+    font-size: 18px;
+  }
+
+  .img-c {
+    width: 150px;
+  }
+
+  .wimg {
+    min-width: 122%;
+  }
+
+  .mto {
+    margin-top: 30px !important;
+  }
+}
+/* 1447 */
+
+@media screen and (width>=1447px) {
+  .navtext {
+    font-size: 20px;
+  }
+}
+
+/* img-c */
+
+/* @media screen and (width>=1387px) {
+  .navtext {
+    font-size: 18px;
+  }
+} */

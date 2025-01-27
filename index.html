@@ -11,16 +11,20 @@
     />
   </head>
   <body>
-    <header class="bg-img pt-4">
+    <header class="bg-img m-0 pb-0 pt-[25px]">
       <nav class="md:block hidden">
         <ul
-          class="nav-links md:flex items-center justify-center gap-4 text-[18px] font-bold"
+          class="nav-links navtext md:flex items-center py-[12px] justify-center gap-4 font-bold"
         >
           <a class="text-green-700" href="/templates/product.html">PRODUKTE</a>
           <a class="text-green-700" href="/">REZEPTE</a>
           <a class="text-green-700" href="#">ÜBER UNS</a>
           <div>
-            <img class="w-32 h-32" src="/img/svgs/Asset 6.svg" alt="Logo" />
+            <img
+              class="img-c h-[93px]"
+              src="/img/svgs/Asset 6.svg"
+              alt="Logo"
+            />
           </div>
           <a class="text-green-700" href="#">NACHHALTIGKEIT</a>
           <a class="text-green-700" href="#">BLOG</a>
@@ -133,7 +137,7 @@
       </nav>
     </header>
 
-    <section class="hero md:my-14">
+    <section class="hero md:my-10 pater">
       <div class="w-full md:w-[60%] mx-auto relative">
         <img class="w-full" src="/img/pngs/imgs (2).jpg" alt="Hero" />
         <button
@@ -148,10 +152,14 @@
       <div class="w-[96%] md:w-[60%] mx-auto">
         <div class="flex items-center justify-center gap-4 flex-col">
           <a class="text-center flex items-center justify-center mt-2">
-            <img src="/assets/img/btimg/fbutton.png" alt="Button" />
+            <img
+              class="wimg"
+              src="/assets/img/btimg/fbutton.png"
+              alt="Button"
+            />
           </a>
           <p
-            class="text-center md:w-[90%] text-[20px] md:text-sm text-green-700"
+            class="text-center md:w-[90%] text-[20px] md:text-sm p-ti text-green-700"
           >
             Unsere Pflanzendrinks stehen für echten, unverfälschten Geschmack -
             keine künstlichen Aromen und Zusätze, nur Natur pur. Hergestellt in
@@ -162,7 +170,7 @@
           </p>
         </div>
         <div class="mt-8 md:mt-16 hidden md:block relative">
-          <img src="/img/pngs/Asset 9.png" alt="Products" />
+          <img class="iuu" src="/img/pngs/Asset 9.png" alt="Products" />
           <a
             class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[35%] flex items-center justify-center"
           >
@@ -182,15 +190,21 @@
     <section class="imgs">
       <div class="w-[60%] mx-auto -mt-4 md:mt-16">
         <div class="flex items-center justify-center gap-4 flex-col">
-          <img class="w-32 h-32 -mb-12" src="/img/svgs/spoon.svg" alt="Spoon" />
-          <h1 class="text-green-700 text-center text-2xl font-bold md:text-4xl">
+          <img
+            class="w-32 hh h-32 -mb-12"
+            src="/img/svgs/spoon.svg"
+            alt="Spoon"
+          />
+          <h1
+            class="text-green-700 sml text-center text-2xl font-bold md:text-4xl"
+          >
             KREATIVE REZEPTE ENTDECKEN
           </h1>
-          <p class="text-green-700 text-center my-1 md:my-0 md:-mt-4">
+          <p class="text-green-700 p-ti ius text-center my-1 md:my-0 md:-mt-4">
             Von Frühstück bis Dessert-lass dich inspirieren!
           </p>
         </div>
-        <div class="flex items-center justify-center gap-2 mt-2 md:mt-16">
+        <div class="flex items-center justify-center gap-2 mt-2 md:mt-16 mto">
           <img
             class="w-[50%] md:w-[40%]"
             src="/img/pngs/img1.png"
@@ -212,28 +226,13 @@
 
     <section class="relative mt-10 md:mt-[6rem]">
       <div
-        class="bg-green h-[60%] p-12 py-22 flex flex-col lg:flex-row relative items-center justify-center gap-[10rem] w-[80%] mx-auto mt-16"
+        class="h-[60%] hidden md:flex p-12 py-22 flex-col lg:flex-row relative items-center justify-center gap-[10rem] w-[100%] mx-auto mt-16"
       >
-        <div class="w-[40%]"></div>
-        <div
-          class="w-[41%] absolute top-[50%] right-5 translate-y-[-50%] flex flex-col justify-center"
-        >
-          <img class="w-32" src="/img/svgs/Asset 2.svg" alt="Circle" />
-          <h1 class="text-white font-bold text-3xl">NACHHALTIG VERPACKT</h1>
-          <p class="text-white">
-            Erfahren Sie, wie unsere Verpackungen Umwelt und Produkt
-            gleichermaßen schützen!
-          </p>
-          <a
-            class="bg-btn3 w-[40%] flex items-center justify-center text-white"
-          >
-            <p class="mt-12 text-green-700">MEHR ERFAHREN</p>
-          </a>
-        </div>
+        <img class="w-[70%]" src="/assets/img/btimg/gimg.png" alt="Bg" />
       </div>
     </section>
 
-    <section class="relative gg">
+    <section class="relative md:hidden">
       <div>
         <img class="w-full" src="/img/pngs/mbileg.png" alt="Image" />
       </div>
@@ -267,11 +266,13 @@
           <img class="w-full" src="/img/pngs/man.png" alt="Man" />
         </dvi>
         <dvi class="mt-12 flex flex-col items-center justify-center gap-4">
-          <h1 class="text-green-700 text-center text-4xl font-bold md:text-3xl">
+          <h1
+            class="text-green-700 text-center sml text-4xl font-bold md:text-3xl"
+          >
             UNSERE MISSION: NATÜRLICH BESSER
           </h1>
           <p
-            class="text-center text-[28px] md:text-sm text-green-700 md:w-[70%]"
+            class="text-center text-[20px] p-ti md:text-sm text-green-700 md:w-[70%]"
           >
             Erfahren Sie mehr über uns und unsere Mission, die Welt mit unseren
             Pflanzendrinks schluckweise nachhaltiger zu machen. MEHR ERFAHREN
