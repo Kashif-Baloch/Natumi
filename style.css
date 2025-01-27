@@ -78,18 +78,6 @@ body {
   } */
 }
 
-@media screen and (width: 1024px) {
-  .bg-green {
-    height: 95vh !important;
-  }
-}
-
-@media screen and (width: 1440px) {
-  .bg-green {
-    height: 120vh !important;
-  }
-}
-
 @media screen and (width>=1218px) {
   .bg-green {
     display: block;
